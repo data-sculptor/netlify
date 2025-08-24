@@ -145,8 +145,12 @@ a.inline-block.leading-5.pl-12{
 }
 
 .markdown pre {
-	@apply  w-full h-full px-8 py-12   ;
-} 
+  @apply w-full h-auto max-h-[40rem] overflow-auto px-6 py-4 rounded-lg;
+}
+
+.markdown pre code {
+  @apply block whitespace-pre leading-7 text-sm font-mono;
+}
 
 .markdown strong{
 	@apply font-bold;

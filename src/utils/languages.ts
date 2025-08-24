@@ -29,10 +29,6 @@ export const languages: Record<string, Language> = {
     name: "JavaScript",
     iconName: "javascript",
   },
-  mongo: {
-    name: "MongoDb",
-    iconName: "mongo",
-  },
   mysql: {
     name: "MySQL",
     className: "bg-[#f6ece1]!",
@@ -110,6 +106,107 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  aws: {
+    name: "AWS",
+    iconName: "aws",
+  },
+  postgresql: {
+    name: "PostgreSQL",
+    iconName: "postgresql",
+  },
+  tensorflow: {
+    name: "TensorFlow",
+    iconName: "tensorflow",
+  },
+  pytorch: {
+    name: "PyTorch",
+    iconName: "pytorch",
+  },
+  matplotlib: {
+    name: "Matplotlib",
+    iconName: "matplotlib",
+  },
+  seaborn: {
+    name: "Seaborn",
+    iconName: "seaborn",
+  },
+  jupyter: {
+    name: "Jupyter",
+    iconName: "jupyter",
+  },
+  r: {
+    name: "R",
+    iconName: "r",
+  },
+  airbyte: {
+    name: "Airbyte",
+    iconName: "airbyte",
+  },
+  dbt: {
+    name: "dbt",
+    iconName: "dbt",
+  },
+  vscode: {
+    name: "VS Code",
+    iconName: "vscode",
+  },
+  docker: {
+    name: "Docker",
+    iconName: "docker",
+  },
+  kubernetes: {
+    name: "Kubernetes",
+    iconName: "kubernetes",
+  },
+  airflow: {
+    name: "Airflow",
+    iconName: "airflow",
+  },
+  fastapi: {
+    name: "FastAPI",
+    iconName: "fastapi",
+  },
+  flask: {
+    name: "Flask",
+    iconName: "flask",
+  },
+  linux: {
+    name: "Linux",
+    iconName: "linux",
+  },
+  terraform: {
+    name: "Terraform",
+    iconName: "terraform",
+  },
+  numpy: {
+    name: "NumPy",
+    iconName: "numpy",
+  },
+  pandas: {
+    name: "Pandas",
+    iconName: "pandas",
+  },
+  scikit: {
+    name: "Scikit-learn",
+    iconName: "scikit-learn",
+  },
+  powerbi: {
+    name: "Power BI",
+    iconName: "powerbi",
+  },
+  mongodb: {
+    name: "MongoDB",
+    iconName: "mongodb",
+  },  
+  kafka: {
+    name: "Kafka",
+    iconName: "kafka",
+  },
+  spark: {
+    name: "Apache Spark",
+    iconName: "spark",
+  },
+
 };
 
 export const getLanguage = (lang: string): Language => {

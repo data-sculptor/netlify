@@ -2,12 +2,13 @@
 interface Props {
   title: string;
   company: string;
-  description: string;
+  description: string | string[]; // <= allow array OR string
   link?: string;
   date: string;
 }
 
 const { title, company, description, link, date } = Astro.props;
+const isArray = Array.isArray(description);
 ---
 
 <div
@@ -19,23 +20,35 @@ const { title, company, description, link, date } = Astro.props;
         class="absolute -left-[42px] text-5xl text-mint-400 rounded-full drop-shadow-[0px_0px_8px_rgba(0,255,94,1)]"
         >&bull;</span
       >
-      <h3
-        
-        class="text-xl font-bold text-mint-400"
-      >
+      <h3 class="text-xl font-bold text-mint-400">
         {title}
       </h3>
-      <h4 class="text-xl font-semibold text-zinc-600 dark:text-white">
-        {company}
-      </h4>
-      <time datetime={date} class="text-sm text-zinc-600/80 dark:text-white/80">
+
+      {link ? (
+        <h4 class="text-xl font-semibold text-zinc-600 dark:text-white">
+          <a href={link} target="_blank" rel="noopener noreferrer" class="underline-offset-2 hover:underline">
+            {company}
+          </a>
+        </h4>
+      ) : (
+        <h4 class="text-xl font-semibold text-zinc-600 dark:text-white">
+          {company}
+        </h4>
+      )}
+
+      <time class="text-sm text-zinc-600/80 dark:text-white/80">
         {date}
       </time>
     </div>
   </div>
-  <div
-    class="flex flex-col gap-2 pb-4 text-zinc-00 dark:text-zinc-300 md:col-span-3"
-  >
-    {description}
+
+  <div class="flex flex-col gap-2 pb-4 text-zinc-00 dark:text-zinc-300 md:col-span-3">
+    {isArray ? (
+      <ul class="ml-5 list-disc space-y-1">
+        {(description as string[]).map((item, i) => <li>{item}</li>)}
+      </ul>
+    ) : (
+      <p>{description as string}</p>
+    )}
   </div>
 </div>

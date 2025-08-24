@@ -1,13 +1,13 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Fernando López | My Journey in Technology and Web Development 🚀| EFEELE"
-description: "Web developer, technology enthusiast, and event organizer. From my beginnings in development to creating communities and impactful projects, here I share my journey, experiences, and learnings. 🚀☕"
-author: "Fernando Lopez"
+title: "Mo - Data Engineer / Data Scientist "
+description: "Passionate about data"
+author: "Mo"
 image:
-  url: "/images/efeeleprofile.webp"
-  alt: "Photo of Fernando Aldair López Ponce (EFEELE) for the blog"
+  url: "/images/profile_photo.webp"
+  alt: "Photo of Mo"
 ---
-
+<!-- 
 I started developing my first commercial projects as a web developer in 2017. Although I've been passionate about technology for as long as I can remember. I discovered the internet at age 6, and along with it, I learned to use **Paint** 🎨 and play **Pinball** on a **Windows XP** computer that my cousins had. Years passed, and I discovered there was a cyber café near my house, so accompanied by my older brother, I spent a lot of time there, watching others play **Age of Empires** ⚔️. When I could, I also played on the computers and investigated how those games worked. But above all, I remember that while sitting there, I watched the owner, Alfredo, the good <a href="https://fred.cpp.mx/" target="_blank" rel="noopener noreferrer">Fred</a>, while he programmed and modeled game maps, or at least that's what I remember. That made me want to try doing the same. I found it incredible how so many things happened on his screen that, although I couldn't understand them, looked amazing. Without a doubt, he was my first influence to get into programming.
 
 When we got our first computer at home, around 2011, I spent all my time there, creating my own texture packs to integrate them into one of the games I played the most: **GTA SA**. For this, I learned to use **GIMP** and later **Photoshop**. I wanted to go further and started creating scenarios for the game, so that's when I learned 3D modeling. By then, I was already 12 years old, and I remember I had the intention of dedicating myself to creating video games 🎮. A couple of years later, knowing that programming is needed to create video games, I researched a bit and created my first website with **HTML 4** and **CSS3**. It was a static page, clearly not responsive, and its design and content were very poor, but I felt very proud seeing my page working online.
@@ -106,4 +106,4 @@ Oh! And I'm an expert at preparing coffee. Seriously, whether it's to start the 
 
 I'm **Fernando Aldair López Ponce**, and I thank you for reading this.
 
-## Let's Create Amazing Things! 🚀 
+## Let's Create Amazing Things! 🚀  -->

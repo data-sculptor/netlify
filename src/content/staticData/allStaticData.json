@@ -1,18 +1,18 @@
 {
-  "profileImage": "/images/efeeleprofile.webp",
+  "profileImage": "/images/profile_photo.webp",
   "profileAlt": "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
   "profileLink": "/about-me",
-  "profileTitle": "FrontEnd Developer",
-  "profileName": "Fernando López",
-  "github": "https://github.com/EFEELE/NeonMint",
+  "profileTitle": "Data Engineer | Data Scientist | Data Analyst",
+  "profileName": "Mo -",
+  "github": "https://github.com/data-sculptor",
   "githubText": "Do you like this blog's design?",
   "portfolioImage": "/images/portfolio.webp",
-  "email": "hello@efeele.dev",
-  "linkedin": "https://www.linkedin.com/in/efeele/",
-  "instagram": "https://www.instagram.com/efeele.dev/",
-  "youtube": "https://www.youtube.com/@efeeledev",
-  "alias": "EFEELE",
-  "contactSectionTitle": "Ready to take your idea to the next level?",
+  "email": "m@data247.org",
+  "linkedin": "https://www.linkedin.com/in/khodaygani/",
+  "instagram": "https://www.instagram.com/",
+  "youtube": "https://www.youtube.com/@",
+  "alias": "Mo",
+  "contactSectionTitle": "Wanna collaborate? Get in touch!",
   "contactSectionSubtitle": "Let's work together.",
   "contactSectionButtonText": "Contact Me",
   "contactSectionButtonIcon": "paperplane",
@@ -23,17 +23,16 @@
   "linkedinIconName": "linkedin",
   "emailIconName": "envelope",
   "hobbies": [
-    "Writing",
-    "Camping",
-    "Coffee",
-    "Music",
-    "Movies",
-    "Board Games"
+
+    "DIYs",
+    "Taking my Transalp around",
+    "Beating and getting beaten up in Chess"
+
   ],
-  "pageTitle": "NeonMint by | Fernando Lopez | EFEELE",
-  "pageDescription": "Is a modern, minimalist template crafted for developers and digital creatives.",
+  "pageTitle": "Mo",
+  "pageDescription": "Data Engineer | Data Scientist | Data Analyst",
   "OGImage": {
     "url": "/images/imagedefault.webp",
-    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Fernando López, a Frontend Developer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
+    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Mo, a Data Engineer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
   }
 }
